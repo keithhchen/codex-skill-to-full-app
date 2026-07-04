@@ -1,0 +1,40 @@
+{
+  "name": "keithhchen-claude-plugins",
+  "owner": {
+    "name": "Keith Chen",
+    "email": "keithhchen@icloud.com"
+  },
+  "description": "Claude Code plugins maintained by Keith Chen.",
+  "version": "1.0.0",
+  "metadata": {
+    "description": "Claude Code plugins maintained by Keith Chen.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "skill-to-full-app",
+      "source": "./plugins/skill-to-full-app",
+      "description": "Convert skills, SOPs, and agent workflows into AI-native full app plans and implementations.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Keith Chen",
+        "email": "keithhchen@icloud.com"
+      },
+      "homepage": "https://github.com/keithhchen/codex-skill-to-full-app",
+      "repository": "https://github.com/keithhchen/codex-skill-to-full-app",
+      "license": "MIT",
+      "keywords": [
+        "skills",
+        "plugins",
+        "ai-apps",
+        "agent-runtime"
+      ],
+      "category": "productivity",
+      "tags": [
+        "skills",
+        "ai-apps",
+        "architecture"
+      ]
+    }
+  ]
+}

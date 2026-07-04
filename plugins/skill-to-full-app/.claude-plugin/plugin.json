@@ -1,0 +1,20 @@
+{
+  "name": "skill-to-full-app",
+  "version": "0.1.0",
+  "description": "Convert skills, SOPs, and agent workflows into AI-native full app plans and implementations.",
+  "author": {
+    "name": "Keith Chen",
+    "email": "keithhchen@icloud.com",
+    "url": "https://github.com/keithhchen"
+  },
+  "homepage": "https://github.com/keithhchen/codex-skill-to-full-app",
+  "repository": "https://github.com/keithhchen/codex-skill-to-full-app",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "plugins",
+    "ai-apps",
+    "agent-runtime"
+  ],
+  "skills": "./skills/"
+}
