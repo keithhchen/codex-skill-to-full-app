@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill To Full App"
+  short_description: "Turn portable skills into AI-native apps"
+  default_prompt: "Use $skill-to-full-app to turn this Skill into a real AI-native app with runtime, tools, state, evals, and human review."

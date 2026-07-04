@@ -1,0 +1,54 @@
+[
+  {
+    "id": "complete_layer_plan",
+    "input": "Create a plan for turning a management accounting review Skill into an AI-native app.",
+    "must_include": [
+      "first useful version",
+      "client layer",
+      "runtime layer",
+      "app layer",
+      "product infrastructure",
+      "deployment",
+      "LLM provider",
+      "structured output",
+      "tool calling",
+      "state persistence",
+      "human review",
+      "evals"
+    ]
+  },
+  {
+    "id": "reject_single_call",
+    "input": "Build it as one API route that sends the whole Skill text to the model and returns text.",
+    "must_reject_or_correct": [
+      "single model call as final architecture",
+      "no state",
+      "no output schema",
+      "no evals",
+      "no trace"
+    ]
+  },
+  {
+    "id": "provider_agnostic_config",
+    "input": "The user only has public OpenAI-compatible model services such as DeepSeek, Kimi, GLM, and Qwen.",
+    "must_include": [
+      "MODEL_BASE_URL",
+      "MODEL_API_KEY",
+      "MODEL_NAME",
+      "provider adapter",
+      "JSON output",
+      "tool calls"
+    ]
+  },
+  {
+    "id": "human_approval",
+    "input": "The app drafts outbound sales emails and can update a CRM.",
+    "must_include": [
+      "draft-only model output",
+      "approval before send",
+      "approval before CRM write",
+      "audit trail",
+      "tool permission classification"
+    ]
+  }
+]

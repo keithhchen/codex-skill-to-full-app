@@ -1,0 +1,44 @@
+[
+  {
+    "id": "trigger_skill_to_app",
+    "should_trigger": true,
+    "prompt": "Turn this SKILL.md into a production-ready web app with an OpenAI-compatible model provider, tool calling, state, review, and evals.",
+    "reason": "Direct Skill-to-App transformation request."
+  },
+  {
+    "id": "trigger_agent_runtime",
+    "should_trigger": true,
+    "prompt": "Design a provider-agnostic agent runtime for our finance anomaly review SOP and build the first vertical slice.",
+    "reason": "Requests provider-agnostic agent runtime and app implementation."
+  },
+  {
+    "id": "trigger_business_sop_app",
+    "should_trigger": true,
+    "prompt": "We have a sales qualification SOP. Build it into a real internal app with auth, database, queue for long jobs, and human approval before sending emails.",
+    "reason": "Converts business SOP into AI-native full app with product infrastructure."
+  },
+  {
+    "id": "trigger_runtime_infra",
+    "should_trigger": true,
+    "prompt": "Our current AI app is just one chat endpoint. Add runtime traces, structured output validation, tool execution, evals, and deployment configuration.",
+    "reason": "Asks to move from single-call app to runtime-owned AI app."
+  },
+  {
+    "id": "no_trigger_plain_frontend",
+    "should_trigger": false,
+    "prompt": "Make this landing page look more polished and responsive.",
+    "reason": "Frontend styling task without Skill-to-App or AI runtime work."
+  },
+  {
+    "id": "no_trigger_generic_deploy",
+    "should_trigger": false,
+    "prompt": "Deploy this static website to Vercel.",
+    "reason": "Deployment-only task without AI-native app or Skill transformation."
+  },
+  {
+    "id": "no_trigger_skill_authoring_only",
+    "should_trigger": false,
+    "prompt": "Write a simple SKILL.md for summarizing meeting transcripts.",
+    "reason": "Skill creation only; should use skill-creator unless converting that skill into an app."
+  }
+]
