@@ -32,14 +32,14 @@ Prerequisites:
 From the Claude Code terminal:
 
 ```bash
-claude plugin marketplace add keithhchen/codex-skill-to-full-app@main
+claude plugin marketplace add keithhchen/codex-skill-to-full-app
 claude plugin install skill-to-full-app@keithhchen-claude-plugins
 ```
 
 Or inside an interactive Claude Code session:
 
 ```text
-/plugin marketplace add keithhchen/codex-skill-to-full-app@main
+/plugin marketplace add keithhchen/codex-skill-to-full-app
 /plugin install skill-to-full-app@keithhchen-claude-plugins
 /reload-plugins
 ```
